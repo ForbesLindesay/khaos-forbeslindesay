@@ -1,19 +1,19 @@
 
-# khaos-react
+# khaos-forbeslindesay
 
-A [Khaos](http://github.com/segmentio/khaos) template to start new react.js projects quickly.
+A [Khaos](http://github.com/segmentio/khaos) template to start new projects quickly.
 
 ## Installation
 
 Save the template locally with:
 
-    $ khaos install lapwinglabs/khaos-react react
+    $ khaos install ForbesLindesay/khaos-forbeslindesay node
 
 ## Usage
 
-Create a new react.js project with:
+Create a new project with:
 
-    $ khaos react my-project
+    $ khaos node my-project
 
 ## License
 

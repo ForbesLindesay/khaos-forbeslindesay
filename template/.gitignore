@@ -1,20 +1,26 @@
-/node_modules
-/components
-/build
-/db
+# Logs
+logs
+*.log
 
-.DS_Store
-npm-debug.log
+# Runtime data
+pids
+*.pid
+*.seed
 
-# local env files
-# for testing production
-# (overwrites .env)
-/.env.*
+# Coverage directory used by tools like istanbul
+coverage
 
-# project view folders
-/project-views/functional
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
 
-#project page
-lr.sublime-project
-lr.sublime-workspace
-.env.local
+# Dependency directory
+node_modules
+
+# Users Environment Variables
+.lock-wscript
+
+# Babel build output
+/lib
+
+# Config files
+environment.toml
