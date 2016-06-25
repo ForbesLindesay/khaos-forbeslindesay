@@ -11,11 +11,11 @@
     "babel-runtime": "^6.3.19"
   },
   "devDependencies": {
-    "babel-cli": "^6.4.0",
-    "babel-preset-forbeslindesay": "^2.0.1",
-    "eslint": "^1.10.3",
-    "eslint-config-forbeslindesay": "^1.0.0",
-    "testit": "^2.0.2"
+    "babel-cli": "*",
+    "babel-preset-forbeslindesay": "*",
+    "eslint": "*",
+    "eslint-config-forbeslindesay": "*",
+    "testit": "*"
   },
   "scripts": {
     "prepublish": "npm run build",
