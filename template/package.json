@@ -16,14 +16,26 @@
     "babel-preset-forbeslindesay": "*",
     "eslint": "*",
     "eslint-config-forbeslindesay": "*",
-    "jest": "*"
+    "husky": "*",
+    "jest": "*",
+    "lint-staged": "*",
+    "prettier": "*"
   },
   "scripts": {
+    "precommit": "lint-staged",
     "prepublish": "npm run build",
+    "prettier": "prettier --single-quote --trailing-comma all --no-bracket-spacing --write \"src/**/*.js\"",
+    "prettier:check": "prettier --single-quote --trailing-comma all --no-bracket-spacing --list-different \"src/**/*.js\"",
     "build": "babel src --out-dir lib",
     "lint": "eslint src",
     "test": "jest ./src --coverage && npm run lint",
     "watch": "jest ./src --coverage --watch"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --trailing-comma all --no-bracket-spacing --write",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",

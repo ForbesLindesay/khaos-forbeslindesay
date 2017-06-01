@@ -1,1 +1,1 @@
-import {{camelCaseName}} from '../src';
+import {{camelCaseName}} from '../';

@@ -28,5 +28,5 @@ schema:
   year:
     type: number
     label: Year
-    hint: (eg. 2016)
+    hint: (eg. 2017)
     required: true
